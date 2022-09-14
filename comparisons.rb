@@ -56,21 +56,24 @@ number_students <= 21
 
 puts 4 < 9
 #YOU DO: Explain.
+#This code is asking for the outcome of 4 less than 9, which should result in a true statement
 
 books = 3
 puts 4 < books
 # YOU DO: Explain.
+#This code defines the variables books as the integer 3. Then has the output will be false because 4 is NOT less than books (3).
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
+#Two variables are defined with integer values. The comparison of friends being greater than siblings would result in true since there are more friends.
 
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
-
+#Two variables defined with integers. The outcome should be true as the number of attendees are not equal to meals
 
 #-------------------
 # PART 3: Logical Operators
