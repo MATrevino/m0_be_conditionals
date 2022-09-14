@@ -85,8 +85,10 @@ finished_homework = false
 # EXAMPLE:
 # Determine if the user is hungry and has completed their homework
 is_hungry && finished_homework
+#false (not both conditions are met)
 # Determine if the user is hungry or has completed their homework
 is_hungry || finished_homework
+#true (one condition is met)
 
 loves_to_play = true
 loves_dog_park = false
@@ -95,15 +97,20 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+loves_to_play && loves_treats
+#should be true
 
 # Determine if the dog loves to play and loves the dog park
-
+loves_to_play && loves_dog_park
+#shuld be false
 
 # Determine if the dog loves to play or loves the dog park
-
+loves_to_play || loves_dog_park
+#should be true
 
 # Determine if the dog loves to play and is a puppy
-
+loves_to_play && age<=1
+#Should be true as both conditions are met. I'm not sure what age is  puppy or not
 # What did your final line of code evaluate to? Why do you think that is? Explain.
 # ANSWER:
+#My last code came out as true because the dog loves to play and the age is less than or equal to 1
